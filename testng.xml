@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrameWorks">
+  <test name="HybridReport">
+    <classes>
+        
+      <class name="driverFactory.DriverScript"/>
+    </classes>
+  </test> <!-- HybridReport -->
+  <test name="DataDriven">
+    <classes>
+        <class name="driverFactory.POMDriverScripts"/>
+      
+    </classes>
+  </test> <!-- HybridReport -->
+</suite> <!-- FrameWorks -->
